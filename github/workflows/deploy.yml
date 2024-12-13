@@ -3,7 +3,7 @@ name: Deploy Astro from dev to GitHub Pages
 on:
   push:
     branches:
-      - dev 
+      - dev
 
 jobs:
   deploy:
@@ -18,6 +18,8 @@ jobs:
         run: npm install
       - name: Build Astro project
         run: npm run build
+      - name: Create .nojekyll file
+        run: echo > dist/.nojekyll
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
