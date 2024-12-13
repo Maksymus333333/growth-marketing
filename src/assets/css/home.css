@@ -41,7 +41,7 @@ button {
 }
 
 .menu-button {
-    background-image: url("/mobnav.svg");  
+    background-image: url("/public/mobnav.svg");  
     background-repeat: no-repeat;      
     background-size: contain;          
     background-position: center;     
@@ -84,7 +84,7 @@ button {
     padding: 60px 125px 20px 125px;  
     flex-direction: column;
     position: relative;
-    background-image: url('/background_photo_rocket.png');  
+    background-image: url('/public/background_photo_rocket.png');  
     background-position: center;   
     background-repeat: no-repeat; 
     height: 100%; 
@@ -149,7 +149,7 @@ h2{
 }
 
 .requirements-list li {
-    background: url('/point.svg') no-repeat left center; /* Вказуємо шлях до SVG */
+    background: url('/public/point.svg') no-repeat left center; /* Вказуємо шлях до SVG */
     margin-bottom: 35px;
     padding-left: 40px; 
 }
